@@ -2,7 +2,7 @@
 
 A modern, full-stack Banking System web application designed with a robust React frontend and a multi-layered backend infrastructure. This project features complete user authentication, audit logging, multi-role dashboards (Admin and Customer), and transactional tracking.
 
-## Features
+## 🚀 Features
 
 ### Frontend (React + TypeScript)
 *   **Cover Page:** Interactive landing page for user entry.
@@ -19,7 +19,7 @@ A modern, full-stack Banking System web application designed with a robust React
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 *   **Framework:** React (with TypeScript)
@@ -38,7 +38,7 @@ A modern, full-stack Banking System web application designed with a robust React
 
 ---
 
-## Folder Structure
+## 📂 Folder Structure
 
 ```text
 ├── bank project sem 5/
@@ -56,3 +56,5 @@ A modern, full-stack Banking System web application designed with a robust React
 │   ├── package.json             # App dependencies and run scripts
 │   ├── backend-server.js        # Primary application server entry
 │   └── *.mjs / *.js / *.sql     # Database seeding, automation, and constraint testing scripts
+```
+│   │   ├── customer/            # Customer specific views and actions
