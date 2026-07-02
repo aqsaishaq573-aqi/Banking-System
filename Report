@@ -1,0 +1,21 @@
+This Banking System is a comprehensive, production-ready web application developed as a Semester 5 academic project. It is engineered to replicate real-world enterprise banking workflows, focusing heavily on data integrity, role-based access control, and complete transactional transparency.
+
+The application architecture cleanly separates concerns into a high-performance, type-safe frontend and a robust, secure relational database backend.
+
+🔑 Core Modules & Capabilities
+Role-Based Dashboards:
+
+Customer Portal: Provides users with a seamless interface to check live account balances, execute secure funds transfers, track historical account activity, and lodge support complaints.
+
+Admin Command Center: Offers administrators high-level oversight to manage user accounts, resolve submitted customer complaints, monitor systemic transactions, and inspect live data modifications.
+
+Immutable Audit Logging: A dedicated system-wide audit log tracks critical actions and state changes across the database, ensuring regulatory compliance and a tamper-evident history of user activity.
+
+Secure Authentication: Structured Signup and Login pipelines ensure that data access is tightly restricted based on verified user identities and corresponding roles.
+
+💻 Architectural & Technical Highlights
+Frontend Excellence: Built with React and TypeScript via Vite, the client-side application guarantees a rapid, type-safe user experience. It leverages TailwindCSS for responsive layout design and Lucide React for modern, crisp iconography.
+
+Robust Backend API: A Node.js and Express server acts as the central orchestrator, exposing secure API endpoints, processing complex business logic, and managing secure communication channels.
+
+Enterprise Database Management: Powered by an Oracle Database, the system uses strict relational schemas, automated script tooling (.mjs/.js), and precise validation constraints to ensure absolute data persistence, transactional safety, and zero data corruption. It additionally integrates Tool Command Language (TCL) scripts for lower-level backend procedural controllers.
